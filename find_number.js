@@ -8,8 +8,8 @@ function findNumber(number) {
 
 	const counts = {};
 	for (let i = 0; i < includeNumb.length; i++) {
-		const digits = includeNumb[i];
-		counts[digits] = (counts[digits] || 0) + 1;
+		const digit = includeNumb[i];
+		counts[digit] = (counts[digit] || 0) + 1;
 	}
 
 	return counts;
